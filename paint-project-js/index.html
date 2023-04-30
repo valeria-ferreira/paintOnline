@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Paint Online</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <h1>Paint Online</h1>
+        <p class="description">
+            "Bem-vindo(a) ao nosso Paint Online! Aqui você pode dar asas à sua criatividade e criar lindos desenhos. Experimente mudar as cores de fundo e do pincel para deixar a sua obra ainda mais bonita. Não esqueça de salvar seu desenho clicando no botão 'Salvar'. Solte a imaginação e divirta-se!
+        </p>
+    
+        <section class="inputs">
+            <label for="cor">PINCEL:</label>
+            <input id="cor" type="color">
+    
+            <label for="corFundo">FUNDO DA TELA:</label>
+            <input id="corFundo" type="color">
+        </section>
+
+        <button id="btn">Salvar</button>
+
+        <canvas width="600" height="400"></canvas>
+    
+        <script src="script.js"></script>
+    </body>    
+</html>
